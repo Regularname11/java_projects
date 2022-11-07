@@ -69,5 +69,4 @@ class Car {
 
 	}
 
-
 }//end of class
