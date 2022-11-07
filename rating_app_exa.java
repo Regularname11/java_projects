@@ -12,7 +12,7 @@ public class rating_app_exa {
 		Scanner scan = new Scanner(System.in);
 
 		int b1,b2,b3,b4;
-		int exite =0;
+		int exit =0;
 		do {
 
 			System.out.println("1 :D  2 smile  3 :|  4 sad  => 0 EXIT");
@@ -35,7 +35,7 @@ public class rating_app_exa {
 			System.out.println(device.isOn());
 			happyornot.Shutdown();
 
-		}while (exite !=0);
+		}while (exit !=0);
 
 	}
 
@@ -121,6 +121,5 @@ class HappyOrNot extends Device{
 		isOn = false;
 		printfeedback();
 	}
-
 
 }//end.
